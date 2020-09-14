@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-    long currentinvoice = 0;
-    long additionalinvoice = 1000;
-    long bonus = additionalinvoice / 100;
-    long totalinvoice;
-        if (additionalinvoice >= 1000) {
-            totalinvoice = currentinvoice + additionalinvoice + bonus;
+        long currentInvoice = 0;
+        long additionalInvoice = 1000;
+        long bonus = additionalInvoice / 100;
+        long totalInvoice;
+        if (additionalInvoice >= 1000) {
+            totalInvoice = currentInvoice + additionalInvoice + bonus;
         } else {
-            totalinvoice = currentinvoice + additionalinvoice;
-    }
-    System.out.println(totalinvoice);
+            totalInvoice = currentInvoice + additionalInvoice;
+        }
+        System.out.println(totalInvoice);
     }
 }
 
